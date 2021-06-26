@@ -16,10 +16,11 @@ No known bugs yet
 * HTML
 * CSS
 * Javascript
+## Contact
+If you want to contact me, email me on daisychitalu20@gmail.com
 ## Support and contact details
 ## Github page link
 [gh_pages](https://daisychitalu.github.io/PIZZA-INN/)
-If you want to contact me, email me on pauldoe@gmail.com
 ### License
 [MIT Licence](https://choosealicense.com/licenses/mit/)
 Copyright (c) 2021 Paul Inc.
