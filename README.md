@@ -6,7 +6,7 @@ This web app allows my customers to order pizza of different sizes with one or m
 ## Setup/Installation Requirements
 * Clone the repo
 ```
-$ git clone https://github.com/PaulinhoNdegwa/HTML-Intro.git
+$ git clone https://github.com/daisychitalu/PIZZA-INN.git
 ```
 * Open  the project on VS Code/ your editor of choice
 * Open the project on live server
@@ -17,6 +17,8 @@ No known bugs yet
 * CSS
 * Javascript
 ## Support and contact details
+## Github page link
+[gh_pages](https://daisychitalu.github.io/PIZZA-INN/)
 If you want to contact me, email me on pauldoe@gmail.com
 ### License
 [MIT Licence](https://choosealicense.com/licenses/mit/)
