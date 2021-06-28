@@ -1,5 +1,5 @@
-# PIZZA INN
-#### This is a simple HTML. CSS project about my favorite pet, 2021
+# PIZZA PLACE
+#### This is a simple HTML. CSS,BOOTSTRAP, and JQUERY project of pizza.
 #### By  Daisy Chitalu
 ## Description
 This web app allows my customers to order pizza of different sizes with one or more toppings. 
@@ -16,6 +16,7 @@ No known bugs yet
 * HTML
 * CSS
 * Javascript
+* Bootstrap
 ## Contact
 If you want to contact me, email me on daisychitalu20@gmail.com
 ## Support and contact details
