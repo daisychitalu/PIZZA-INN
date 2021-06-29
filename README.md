@@ -17,6 +17,7 @@ No known bugs yet
 * CSS
 * Javascript
 * Bootstrap
+*JQUERY
 ## Contact
 If you want to contact me, email me on daisychitalu20@gmail.com
 ## Support and contact details
