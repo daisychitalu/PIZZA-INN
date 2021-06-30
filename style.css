@@ -10,3 +10,13 @@
 .card{ 
     display: none;
 }
+body{
+    background-image: url("/images/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.form-group{
+    color: rgb(26, 23, 19);
+}
