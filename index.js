@@ -24,31 +24,32 @@ $(document).ready(function(){
         var fnCrust=$("#crust option:selected").val();
         var fnTopping=$("#toppings option:selected").val();
         var fnQuantity=$("input#quantity").val();
-        
         switch (fnSize) {
             case "small":
                 price=500;
                 topprice=300;
                 break;
-        case "medium":
+            case "medium":
             price=800;
             topprice=100;
             break;
             case "large":
                 price=1000;
                 topprice=200;
+                break;
             default:
-                alert("wrong choice");
+                alert("wrong choice 1");
         }
         switch (fnCrust) {
             case "crispy":
                 crustP=200;
                 break;
             case "stuffed":
-                crustp=300;
+                crustP=300;
                 break;
             case "glutten-free":
                 crustP=400;
+                break;
             default:
                 alert("wrong choice");
         }
@@ -61,6 +62,7 @@ $(document).ready(function(){
         }else{
             total=fnQuantity*charge;
         }
+        
         $("span#f").append(newOrder.Flavour);
         $("span#s").append(newOrder.Size);
         $("span#c").append(newOrder.Crust);
@@ -69,3 +71,25 @@ $(document).ready(function(){
         $("span#a").append(total);
     });
 });
+
+$(document).ready(function(){
+    $("button#order").click(function(event){
+        event.preventDefault();
+        $(".card").show();
+        
+    })
+})
+
+$(document).ready(function(){
+    $("button#proceed").click(function(event){
+        event.preventDefault();
+        $("#pt").show();
+        var telephone =$("input#tel").val();
+        var location=$("input#location").val();
+        var address = new Deliver(telephone,location);
+        deliveryP=total+300;
+        $("span#l").append(address.Location);
+        $("span#fee").append(deliveryP);
+        
+    })
+})
