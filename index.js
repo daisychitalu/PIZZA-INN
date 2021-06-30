@@ -19,3 +19,10 @@ $(document).ready(function(){
     })
 
 })
+function myFunction() {
+    var location = prompt("Please enter your location", "Harry Potter");
+    if (location != null) {
+      document.getElementById("demo").innerHTML =
+      "Your order will be delivered in" +" "+ location;
+    }
+  }

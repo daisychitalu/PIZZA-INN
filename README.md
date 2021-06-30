@@ -25,4 +25,4 @@ If you want to contact me, email me on daisychitalu20@gmail.com
 [gh_pages](https://daisychitalu.github.io/PIZZA-INN/)
 ### License
 [MIT Licence](https://choosealicense.com/licenses/mit/)
-Copyright (c) 2021 Paul Inc.
+Copyright (c) 2021 Daisy chitalu
