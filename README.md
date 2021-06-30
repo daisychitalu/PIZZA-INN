@@ -18,11 +18,13 @@ No known bugs yet
 * Javascript
 * Bootstrap
 *JQUERY
-## Contact
-If you want to contact me, email me on daisychitalu20@gmail.com
 ## Support and contact details
+If you want to contact me, email me on daisychitalu20@gmail.com
 ## Github page link
-[gh_pages](https://daisychitalu.github.io/PIZZA-INN/)
+```
+https://daisychitalu.github.io/PIZZA-INN/
+
+```
 ### License
 [MIT Licence](https://choosealicense.com/licenses/mit/)
 Copyright (c) 2021 Daisy chitalu
