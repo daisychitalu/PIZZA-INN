@@ -14,7 +14,7 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-4">
           <div class="myForm">
             <form >
               <div class="form-group">
@@ -57,7 +57,7 @@
             </form>
           </div>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-4">
           <div class="jumbotron">
             <h2>here is your order summary</h2>
             <p>flavour: <span id="f"></span></p>
@@ -68,6 +68,26 @@
             <p>total amount: <span id="a"></span></p>
           </div>
           <button type="submit" id="order" class="btn">home delivery</button>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="heading">
+              <h2>delivery fee is 300</h2>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="tel">telephone number</label>
+                <input type="number" class="form-control" id="tel" placeholder="enter phone number">
+              </div>
+              <div class="form-group">
+                <label for="location">enter delivery location</label>
+                <input type="text" class="form-control" id="locaton" placeholder="location">
+              </div>
+              <div class="card-footer">
+                <button type="submit" id="proceed" class="btn">checkout</button> 
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
